@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101CCE19531FC9BC39B631E1 /* Pods_Mashkor_MashkorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF6E669E8E6BC5FE3B543E /* Pods_Mashkor_MashkorUITests.framework */; };
+		49A8BC887F445A2906B0CC91 /* Pods_MashkorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57676AB01234462191B6EE9A /* Pods_MashkorTests.framework */; };
+		4D17ADA923CB74D400F46A57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17ADA823CB74D400F46A57 /* SceneDelegate.swift */; };
+		4DBCAB7923CC748700DA1111 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCAB7823CC748700DA1111 /* LocationManager.swift */; };
+		4DBCAB7B23CC762B00DA1111 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCAB7A23CC762B00DA1111 /* Protocols.swift */; };
+		4DBCAB7D23CC7A1500DA1111 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCAB7C23CC7A1500DA1111 /* MapManager.swift */; };
+		4DBCAB8123CC8FD100DA1111 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCAB8023CC8FD100DA1111 /* MapManager.swift */; };
+		4DBCAB8323CC945700DA1111 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCAB8223CC945700DA1111 /* Colors.swift */; };
+		4DFB69DA23C4B1B4008D22BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB69D923C4B1B4008D22BC /* AppDelegate.swift */; };
+		4DFB69DE23C4B1B4008D22BC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB69DD23C4B1B4008D22BC /* MapViewController.swift */; };
+		4DFB69E123C4B1B5008D22BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB69DF23C4B1B5008D22BC /* Main.storyboard */; };
+		4DFB69E323C4B1B6008D22BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB69E223C4B1B6008D22BC /* Assets.xcassets */; };
+		4DFB69E623C4B1B6008D22BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB69E423C4B1B6008D22BC /* LaunchScreen.storyboard */; };
+		4DFB69F123C4B1B6008D22BC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB69F023C4B1B6008D22BC /* LocationManager.swift */; };
+		4DFB69FC23C4B1B6008D22BC /* MashkorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB69FB23C4B1B6008D22BC /* MashkorUITests.swift */; };
+		4DFB6A0A23C4BC2B008D22BC /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A0923C4BC2B008D22BC /* PlacesViewController.swift */; };
+		BEC845F689B0C32062B76CE8 /* Pods_Mashkor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB686543A8C0767E83339E7 /* Pods_Mashkor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DFB69ED23C4B1B6008D22BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFB69CE23C4B1B4008D22BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFB69D523C4B1B4008D22BC;
+			remoteInfo = Mashkor;
+		};
+		4DFB69F823C4B1B6008D22BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFB69CE23C4B1B4008D22BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFB69D523C4B1B4008D22BC;
+			remoteInfo = Mashkor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167CEAE149B7ABF35362F42D /* Pods-Mashkor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mashkor.debug.xcconfig"; path = "Target Support Files/Pods-Mashkor/Pods-Mashkor.debug.xcconfig"; sourceTree = "<group>"; };
+		1A536816892156FB965B7637 /* Pods-Mashkor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mashkor.release.xcconfig"; path = "Target Support Files/Pods-Mashkor/Pods-Mashkor.release.xcconfig"; sourceTree = "<group>"; };
+		326C23BADF6BA72012B89490 /* Pods-Mashkor-MashkorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mashkor-MashkorUITests.release.xcconfig"; path = "Target Support Files/Pods-Mashkor-MashkorUITests/Pods-Mashkor-MashkorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D17ADA823CB74D400F46A57 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DBCAB7823CC748700DA1111 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4DBCAB7A23CC762B00DA1111 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		4DBCAB7C23CC7A1500DA1111 /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		4DBCAB8023CC8FD100DA1111 /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		4DBCAB8223CC945700DA1111 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4DFB69D623C4B1B4008D22BC /* Mashkor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mashkor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFB69D923C4B1B4008D22BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DFB69DD23C4B1B4008D22BC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4DFB69E023C4B1B5008D22BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DFB69E223C4B1B6008D22BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFB69E523C4B1B6008D22BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DFB69E723C4B1B6008D22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFB69EC23C4B1B6008D22BC /* MashkorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashkorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFB69F023C4B1B6008D22BC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4DFB69F223C4B1B6008D22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFB69F723C4B1B6008D22BC /* MashkorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashkorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFB69FB23C4B1B6008D22BC /* MashkorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashkorUITests.swift; sourceTree = "<group>"; };
+		4DFB69FD23C4B1B6008D22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFB6A0923C4BC2B008D22BC /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		57676AB01234462191B6EE9A /* Pods_MashkorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MashkorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8288A6431D32497451A9A045 /* Pods-MashkorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MashkorTests.release.xcconfig"; path = "Target Support Files/Pods-MashkorTests/Pods-MashkorTests.release.xcconfig"; sourceTree = "<group>"; };
+		84EF6E669E8E6BC5FE3B543E /* Pods_Mashkor_MashkorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mashkor_MashkorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB686543A8C0767E83339E7 /* Pods_Mashkor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mashkor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ACDAC5C63BBAFC469C6C0E /* Pods-Mashkor-MashkorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mashkor-MashkorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mashkor-MashkorUITests/Pods-Mashkor-MashkorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C163FF0330E7928A6E0F42D1 /* Pods-MashkorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MashkorTests.debug.xcconfig"; path = "Target Support Files/Pods-MashkorTests/Pods-MashkorTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFB69D323C4B1B4008D22BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC845F689B0C32062B76CE8 /* Pods_Mashkor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB69E923C4B1B6008D22BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8BC887F445A2906B0CC91 /* Pods_MashkorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB69F423C4B1B6008D22BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101CCE19531FC9BC39B631E1 /* Pods_Mashkor_MashkorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DBCAB7E23CC8B1300DA1111 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4DBCAB7823CC748700DA1111 /* LocationManager.swift */,
+				4DBCAB7C23CC7A1500DA1111 /* MapManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4DBCAB7F23CC8B2900DA1111 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB69DD23C4B1B4008D22BC /* MapViewController.swift */,
+				4DFB6A0923C4BC2B008D22BC /* PlacesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DBCAB8523CCADFD00DA1111 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB69DF23C4B1B5008D22BC /* Main.storyboard */,
+				4DFB69E423C4B1B6008D22BC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4DBCAB8623CCAE0D00DA1111 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4DBCAB7A23CC762B00DA1111 /* Protocols.swift */,
+				4DBCAB8223CC945700DA1111 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4DFB69CD23C4B1B4008D22BC = {
+			isa = PBXGroup;
+			children = (
+				4DFB69D823C4B1B4008D22BC /* Mashkor */,
+				4DFB69EF23C4B1B6008D22BC /* MashkorTests */,
+				4DFB69FA23C4B1B6008D22BC /* MashkorUITests */,
+				4DFB69D723C4B1B4008D22BC /* Products */,
+				AF4EE1DD59D08BC9532D2061 /* Pods */,
+				74D132B05542FB795B7E13B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFB69D723C4B1B4008D22BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB69D623C4B1B4008D22BC /* Mashkor.app */,
+				4DFB69EC23C4B1B6008D22BC /* MashkorTests.xctest */,
+				4DFB69F723C4B1B6008D22BC /* MashkorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFB69D823C4B1B4008D22BC /* Mashkor */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB69E723C4B1B6008D22BC /* Info.plist */,
+				4DFB69E223C4B1B6008D22BC /* Assets.xcassets */,
+				4DBCAB8623CCAE0D00DA1111 /* Utils */,
+				4DBCAB7E23CC8B1300DA1111 /* Managers */,
+				4DBCAB8523CCADFD00DA1111 /* Storyboards */,
+				4DBCAB7F23CC8B2900DA1111 /* ViewControllers */,
+				4DFB69D923C4B1B4008D22BC /* AppDelegate.swift */,
+				4D17ADA823CB74D400F46A57 /* SceneDelegate.swift */,
+			);
+			path = Mashkor;
+			sourceTree = "<group>";
+		};
+		4DFB69EF23C4B1B6008D22BC /* MashkorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DBCAB8023CC8FD100DA1111 /* MapManager.swift */,
+				4DFB69F023C4B1B6008D22BC /* LocationManager.swift */,
+				4DFB69F223C4B1B6008D22BC /* Info.plist */,
+			);
+			path = MashkorTests;
+			sourceTree = "<group>";
+		};
+		4DFB69FA23C4B1B6008D22BC /* MashkorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB69FB23C4B1B6008D22BC /* MashkorUITests.swift */,
+				4DFB69FD23C4B1B6008D22BC /* Info.plist */,
+			);
+			path = MashkorUITests;
+			sourceTree = "<group>";
+		};
+		74D132B05542FB795B7E13B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AB686543A8C0767E83339E7 /* Pods_Mashkor.framework */,
+				84EF6E669E8E6BC5FE3B543E /* Pods_Mashkor_MashkorUITests.framework */,
+				57676AB01234462191B6EE9A /* Pods_MashkorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4EE1DD59D08BC9532D2061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				167CEAE149B7ABF35362F42D /* Pods-Mashkor.debug.xcconfig */,
+				1A536816892156FB965B7637 /* Pods-Mashkor.release.xcconfig */,
+				B5ACDAC5C63BBAFC469C6C0E /* Pods-Mashkor-MashkorUITests.debug.xcconfig */,
+				326C23BADF6BA72012B89490 /* Pods-Mashkor-MashkorUITests.release.xcconfig */,
+				C163FF0330E7928A6E0F42D1 /* Pods-MashkorTests.debug.xcconfig */,
+				8288A6431D32497451A9A045 /* Pods-MashkorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFB69D523C4B1B4008D22BC /* Mashkor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFB6A0023C4B1B6008D22BC /* Build configuration list for PBXNativeTarget "Mashkor" */;
+			buildPhases = (
+				CB8414A0C42F8EA8B389E720 /* [CP] Check Pods Manifest.lock */,
+				4DFB69D223C4B1B4008D22BC /* Sources */,
+				4DFB69D323C4B1B4008D22BC /* Frameworks */,
+				4DFB69D423C4B1B4008D22BC /* Resources */,
+				0F601A75218677CEB2D9C73D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mashkor;
+			productName = Mashkor;
+			productReference = 4DFB69D623C4B1B4008D22BC /* Mashkor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DFB69EB23C4B1B6008D22BC /* MashkorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFB6A0323C4B1B6008D22BC /* Build configuration list for PBXNativeTarget "MashkorTests" */;
+			buildPhases = (
+				0ED60015B1D5CB46C03091D8 /* [CP] Check Pods Manifest.lock */,
+				4DFB69E823C4B1B6008D22BC /* Sources */,
+				4DFB69E923C4B1B6008D22BC /* Frameworks */,
+				4DFB69EA23C4B1B6008D22BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFB69EE23C4B1B6008D22BC /* PBXTargetDependency */,
+			);
+			name = MashkorTests;
+			productName = MashkorTests;
+			productReference = 4DFB69EC23C4B1B6008D22BC /* MashkorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DFB69F623C4B1B6008D22BC /* MashkorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFB6A0623C4B1B6008D22BC /* Build configuration list for PBXNativeTarget "MashkorUITests" */;
+			buildPhases = (
+				DF418D08C9E29D70F221500B /* [CP] Check Pods Manifest.lock */,
+				4DFB69F323C4B1B6008D22BC /* Sources */,
+				4DFB69F423C4B1B6008D22BC /* Frameworks */,
+				4DFB69F523C4B1B6008D22BC /* Resources */,
+				DBFC538BA0D9B39ECA149B89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFB69F923C4B1B6008D22BC /* PBXTargetDependency */,
+			);
+			name = MashkorUITests;
+			productName = MashkorUITests;
+			productReference = 4DFB69F723C4B1B6008D22BC /* MashkorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFB69CE23C4B1B4008D22BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mark Debbane";
+				TargetAttributes = {
+					4DFB69D523C4B1B4008D22BC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4DFB69EB23C4B1B6008D22BC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4DFB69D523C4B1B4008D22BC;
+					};
+					4DFB69F623C4B1B6008D22BC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4DFB69D523C4B1B4008D22BC;
+					};
+				};
+			};
+			buildConfigurationList = 4DFB69D123C4B1B4008D22BC /* Build configuration list for PBXProject "Mashkor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFB69CD23C4B1B4008D22BC;
+			productRefGroup = 4DFB69D723C4B1B4008D22BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFB69D523C4B1B4008D22BC /* Mashkor */,
+				4DFB69EB23C4B1B6008D22BC /* MashkorTests */,
+				4DFB69F623C4B1B6008D22BC /* MashkorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFB69D423C4B1B4008D22BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB69E623C4B1B6008D22BC /* LaunchScreen.storyboard in Resources */,
+				4DFB69E323C4B1B6008D22BC /* Assets.xcassets in Resources */,
+				4DFB69E123C4B1B5008D22BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB69EA23C4B1B6008D22BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB69F523C4B1B6008D22BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ED60015B1D5CB46C03091D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MashkorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F601A75218677CEB2D9C73D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mashkor/Pods-Mashkor-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mashkor/Pods-Mashkor-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mashkor/Pods-Mashkor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB8414A0C42F8EA8B389E720 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mashkor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBFC538BA0D9B39ECA149B89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mashkor-MashkorUITests/Pods-Mashkor-MashkorUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mashkor-MashkorUITests/Pods-Mashkor-MashkorUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mashkor-MashkorUITests/Pods-Mashkor-MashkorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF418D08C9E29D70F221500B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mashkor-MashkorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFB69D223C4B1B4008D22BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB69DE23C4B1B4008D22BC /* MapViewController.swift in Sources */,
+				4DBCAB8323CC945700DA1111 /* Colors.swift in Sources */,
+				4DFB6A0A23C4BC2B008D22BC /* PlacesViewController.swift in Sources */,
+				4DBCAB7923CC748700DA1111 /* LocationManager.swift in Sources */,
+				4DBCAB7B23CC762B00DA1111 /* Protocols.swift in Sources */,
+				4DBCAB7D23CC7A1500DA1111 /* MapManager.swift in Sources */,
+				4DFB69DA23C4B1B4008D22BC /* AppDelegate.swift in Sources */,
+				4D17ADA923CB74D400F46A57 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB69E823C4B1B6008D22BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBCAB8123CC8FD100DA1111 /* MapManager.swift in Sources */,
+				4DFB69F123C4B1B6008D22BC /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB69F323C4B1B6008D22BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB69FC23C4B1B6008D22BC /* MashkorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DFB69EE23C4B1B6008D22BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFB69D523C4B1B4008D22BC /* Mashkor */;
+			targetProxy = 4DFB69ED23C4B1B6008D22BC /* PBXContainerItemProxy */;
+		};
+		4DFB69F923C4B1B6008D22BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFB69D523C4B1B4008D22BC /* Mashkor */;
+			targetProxy = 4DFB69F823C4B1B6008D22BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DFB69DF23C4B1B5008D22BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFB69E023C4B1B5008D22BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DFB69E423C4B1B6008D22BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFB69E523C4B1B6008D22BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFB69FE23C4B1B6008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DFB69FF23C4B1B6008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFB6A0123C4B1B6008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167CEAE149B7ABF35362F42D /* Pods-Mashkor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = Mashkor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.markdebbane.Mashkor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DFB6A0223C4B1B6008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A536816892156FB965B7637 /* Pods-Mashkor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = Mashkor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.markdebbane.Mashkor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DFB6A0423C4B1B6008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C163FF0330E7928A6E0F42D1 /* Pods-MashkorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = MashkorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.MashkorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mashkor.app/Mashkor";
+			};
+			name = Debug;
+		};
+		4DFB6A0523C4B1B6008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8288A6431D32497451A9A045 /* Pods-MashkorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = MashkorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.MashkorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mashkor.app/Mashkor";
+			};
+			name = Release;
+		};
+		4DFB6A0723C4B1B6008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5ACDAC5C63BBAFC469C6C0E /* Pods-Mashkor-MashkorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = MashkorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.MashkorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mashkor;
+			};
+			name = Debug;
+		};
+		4DFB6A0823C4B1B6008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326C23BADF6BA72012B89490 /* Pods-Mashkor-MashkorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = MashkorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.MashkorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mashkor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFB69D123C4B1B4008D22BC /* Build configuration list for PBXProject "Mashkor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB69FE23C4B1B6008D22BC /* Debug */,
+				4DFB69FF23C4B1B6008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFB6A0023C4B1B6008D22BC /* Build configuration list for PBXNativeTarget "Mashkor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB6A0123C4B1B6008D22BC /* Debug */,
+				4DFB6A0223C4B1B6008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFB6A0323C4B1B6008D22BC /* Build configuration list for PBXNativeTarget "MashkorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB6A0423C4B1B6008D22BC /* Debug */,
+				4DFB6A0523C4B1B6008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFB6A0623C4B1B6008D22BC /* Build configuration list for PBXNativeTarget "MashkorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB6A0723C4B1B6008D22BC /* Debug */,
+				4DFB6A0823C4B1B6008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFB69CE23C4B1B4008D22BC /* Project object */;
+}
